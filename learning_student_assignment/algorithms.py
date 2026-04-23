@@ -187,4 +187,3 @@ class OptimisticRegretMatching:
         self.lastRegrets = current_regrets
         self.last_strategy = self.regretSumsToStrategy()
         return self.last_strategy
-    
