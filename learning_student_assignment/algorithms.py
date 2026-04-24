@@ -141,19 +141,21 @@ P8Prior2 = [1.0, 0.0]
 ############################## PROBLEM 9 ######################################
 
 # Game where BR self-play hits (0,0) immediately but FP drifts
-P9Game1 = [[1, 0], [0, 0]]
-P9Game2 = [[1, 0], [0, 0]]
-P9Prior1 = [0.0, 1.0]
-P9Prior2 = [0.0, 1.0]
 
+P9Game1 = [[0, 0], [0, 0]]
+P9Game2 = [[0, 0], [0, 1]]
+
+P9Prior1 = [1.0, 0.0]
+P9Prior2 = [0.0, 1.0]
 
 ############################## PROBLEM 10 ######################################
 
 # Game where Smoothed FP converges to Mixed NE but Regret Matching oscillates
 P10Game1 = [[0, 1], [1, 0]]
 P10Game2 = [[1, 0], [0, 1]]
-P10Prior1 = [0.5, 0.5]
-P10Prior2 = [0.5, 0.5]
+
+P10Prior1 = [0.9, 0.1]
+P10Prior2 = [0.1, 0.9]
 
 ############################## PROBLEM 11 ######################################
 
